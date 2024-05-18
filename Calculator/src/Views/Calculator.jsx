@@ -74,7 +74,7 @@ const Calculator = () => {
 
     return (
         <div className="calculator">
-            <div className="display">{result}</div>
+            <div className="display" data-testid="result">{result}</div>
             <div className="buttons">
                 <div className="numbers">
                     {['1', '2', '3', '4', '5', '6', '7', '8', '9', '0'].map((num) => (
